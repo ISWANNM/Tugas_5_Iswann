@@ -40,12 +40,12 @@ class User {
   factory User.dummy() {
     return User(
       id: 001,
-      name: "dzikri",
-      userName: "dzikri a",
-      email: "2006005@itg.ac.id",
+      name: "Hilman",
+      userName: "Hilman",
+      email: "2006001@itg.ac.id",
       profileImage:
-          "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=785&q=80",
-      phoneNumber: "085213886026",
+          "https://pict.sindonews.net/dyn/480/pena/news/2022/01/13/39/655579/harga-fotofoto-ghozali-bikin-melongo-ada-yang-laku-rp42-miliiar-fwx.jpg",
+      phoneNumber: "0852222222222",
     );
   }
 
