@@ -6,7 +6,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'News App',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blueGrey,
       ),
       home: NewsListScreen(),
     );
@@ -65,7 +65,7 @@ class _NewsDetailScreenState extends State<NewsDetailScreen> {
             height: 400,
             width: double.infinity,
             child: Image.network(
-              "https://picsum.photos/seed/picsum/400/200",
+              "https://tse1.mm.bing.net/th?id=OIP.z1aUT8WRLkW9_4U21J_QSgHaE8&pid=Api&P=0",
               fit: BoxFit.cover,
             ),
           ),
@@ -75,7 +75,7 @@ class _NewsDetailScreenState extends State<NewsDetailScreen> {
               padding: const EdgeInsets.all(16.0),
               child: SingleChildScrollView(
                 child: Text(
-                  'Berita  ${widget.newsId}. Hidup memang Tidak adil Jadi Biasakanlah dirimu ',
+                  'Berita  ${widget.newsId}. Luaman Gue Amin. ',
                   style: TextStyle(fontSize: 22),
                 ),
               ),

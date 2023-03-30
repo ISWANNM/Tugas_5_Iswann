@@ -31,13 +31,13 @@ class AppRoutes {
       user = state.extra as User;
     } else {
       user = User(
-        id: 002,
-        name: "Hilman Syahril",
-        userName: "Hilman",
-        email: "2006001@itg.ac.id",
+        id: 020,
+        name: "Iswan Nurul M",
+        userName: "Iswan",
+        email: "2006081@itg.ac.id",
         profileImage:
-            "https://https://https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/3/ddfd783a-a1af-48b8-a2fd-f368234458d3.jpg",
-        phoneNumber: "0895361327610",
+            "https://i.postimg.cc/PqDDhBn2/2.gif",
+        phoneNumber: "081928246024",
       );
     }
     return CustomTransitionPage(

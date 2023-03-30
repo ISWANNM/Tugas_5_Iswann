@@ -39,14 +39,13 @@ class User {
 
   factory User.dummy() {
     return User(
-      id: 001,
-      name: "dzikri",
-      userName: "dzikri a",
-      email: "2006005@itg.ac.id",
-      profileImage:
-          "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=785&q=80",
+        id: 020,
+        name: "Iswan Nurul M",
+        userName: "Iswan",
+        email: "2006081@itg.ac.id",
+        profileImage:
+            "https://i.postimg.cc/PqDDhBn2/2.gif",
       phoneNumber: "085213886026",
     );
   }
-
 }
